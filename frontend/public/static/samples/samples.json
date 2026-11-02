@@ -1,0 +1,50 @@
+[
+  {
+    "id": "Buteo_lagopus",
+    "scientific_name": "Buteo lagopus",
+    "common_name": "Rough-legged Hawk",
+    "family": "Accipitridae",
+    "filename": "Buteo_lagopus.jpg",
+    "url": "/static/samples/Buteo_lagopus.jpg"
+  },
+  {
+    "id": "Tyto_alba",
+    "scientific_name": "Tyto alba",
+    "common_name": "Barn Owl",
+    "family": "Tytonidae",
+    "filename": "Tyto_alba.jpg",
+    "url": "/static/samples/Tyto_alba.jpg"
+  },
+  {
+    "id": "Acanthis_flammea",
+    "scientific_name": "Acanthis flammea",
+    "common_name": "Common Redpoll",
+    "family": "Fringillidae",
+    "filename": "Acanthis_flammea.jpg",
+    "url": "/static/samples/Acanthis_flammea.jpg"
+  },
+  {
+    "id": "Dryobates_pubescens",
+    "scientific_name": "Dryobates pubescens",
+    "common_name": "Downy Woodpecker",
+    "family": "Picidae",
+    "filename": "Dryobates_pubescens.jpg",
+    "url": "/static/samples/Dryobates_pubescens.jpg"
+  },
+  {
+    "id": "Aythya_collaris",
+    "scientific_name": "Aythya collaris",
+    "common_name": "Ring-necked Duck",
+    "family": "Anatidae",
+    "filename": "Aythya_collaris.jpg",
+    "url": "/static/samples/Aythya_collaris.jpg"
+  },
+  {
+    "id": "Archilochus_colubris",
+    "scientific_name": "Archilochus colubris",
+    "common_name": "Ruby-throated Hummingbird",
+    "family": "Trochilidae",
+    "filename": "Archilochus_colubris.jpg",
+    "url": "/static/samples/Archilochus_colubris.jpg"
+  }
+]
