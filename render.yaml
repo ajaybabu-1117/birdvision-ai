@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: birdvision-api
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: ENVIRONMENT
+        value: production
+      - key: DEBUG
+        value: "False"
+      - key: ALLOWED_ORIGINS
+        value: "https://birdvision-ai.vercel.app,http://localhost:5173,*"
+      - key: MODEL_DOWNLOAD_URL
+        sync: false
+      - key: HF_MODEL_REPO
+        sync: false
